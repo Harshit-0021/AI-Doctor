@@ -8,13 +8,30 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
 # System files
 .DS_Store
 Thumbs.db
 
-# Credentials
+# Jupyter / Notebooks
+*.ipynb_checkpoints
+
+# Credentials / secrets
 *.env
 apikey.txt
 
-# Logs
+# Logs and temporary files
 *.log
+*.tmp
+
+# IDE settings
+.vscode/
+.idea/
+
+# Flask specific
+instance/
+*.db

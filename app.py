@@ -6,6 +6,7 @@ from src.response_generator import generate_response
 from main import query_medical_model
 import os
 
+
 # ---------------------------------------------------
 # Flask app configuration
 # ---------------------------------------------------

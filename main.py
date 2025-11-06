@@ -3,27 +3,16 @@
 import requests
 from src.predict import predict_disease
 from src.response_generator import generate_response
-
+from dotenv import load_dotenv
+import os
 # -----------------------------
-# 1️⃣ Hugging Face Inference Config
-# -----------------------------
-# API_URL = "https://router.huggingface.co/hf-inference/v1/chat/completions"
-# API_KEY = "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"  # your valid HF token
-
-
-
-#
-# HEADERS = {
-#     "Authorization": f"Bearer {API_TOKEN}",
-#     "Content-Type": "application/json"
-# }
-
 
 import requests
 
 def query_medical_model(response):
     API_URL = "https://openrouter.ai/api/v1/chat/completions"
-    API_KEY = "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"  # get from openrouter.ai
+    load_dotenv()
+    API_KEY = os.getenv("OPENROUTER_API_KEY")  # get from openrouter.ai
     prompt = response["llm_prompt"]
 
     headers = {

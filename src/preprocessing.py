@@ -3,7 +3,6 @@
 import speech_recognition as sr
 import spacy
 import numpy as np
-
 # Import your utils + predict functions
 from src.utils import load_resources
 from sklearn.exceptions import NotFittedError
