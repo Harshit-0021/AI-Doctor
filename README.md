@@ -1,10 +1,11 @@
-# 🩺 AI Doctor – Intelligent Disease Prediction & Consultation
+# 🩺 DocGenie – Intelligent Disease Prediction & Consultation
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Flask](https://img.shields.io/badge/Flask-Backend-black)
 ![LLM](https://img.shields.io/badge/LLM-Mistral--7B--Instruct-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![NLP](https://img.shields.io/badge/NLP-Natural%20Language%20Processing-orange)
 
 > An AI-powered medical assistant built using **Flask** and **Large Language Models (LLMs)**.  
 > Users can enter symptoms and instantly receive **predicted diseases**, **medical explanations**, and **doctor-style advice**.
